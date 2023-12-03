@@ -1,10 +1,10 @@
 # Maniceraf.SimpleMongoDbLogger - MongoDB Logger for .NET
 
-Maniceraf.SimpleMongoDbLogger is a versatile logging library that seamlessly integrates with MongoDB, providing developers with an efficient means to log messages of various severity levels directly into a MongoDB database.
+**Maniceraf.SimpleMongoDbLogger** is a versatile logging library that seamlessly integrates with MongoDB, providing developers with an efficient means to log messages of various severity levels directly into a MongoDB database.
 
 ## Getting Started
 
-To begin using Maniceraf.SimpleMongoDbLogger start by installing the latest version of the package from [Nuget][].
+To begin using **Maniceraf.SimpleMongoDbLogger** start by installing the latest version of the package from [Nuget][].
 
 ## Installation
 
