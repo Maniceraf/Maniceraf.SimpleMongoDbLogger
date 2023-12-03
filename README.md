@@ -1,12 +1,12 @@
-# Maniceraf.SimpleMongoDbLogger - MongoDB Logger for .NET
+# **Maniceraf.SimpleMongoDbLogger - MongoDB Logger for .NET**
 
 **Maniceraf.SimpleMongoDbLogger** is a versatile logging library that seamlessly integrates with MongoDB, providing developers with an efficient means to log messages of various severity levels directly into a MongoDB database.
 
-## Getting Started
+## **Getting Started**
 
 To begin using **Maniceraf.SimpleMongoDbLogger** start by installing the latest version of the package from [Nuget](https://www.nuget.org/packages/Maniceraf.SimpleMongoDbLogger).
 
-## Installation
+## **Installation**
 
 You can install the **Maniceraf.SimpleMongoDbLogger** via [NuGet](https://www.nuget.org/packages/Maniceraf.SimpleMongoDbLogger). Use the Package Manager Console or the .NET CLI:
 
@@ -14,7 +14,7 @@ You can install the **Maniceraf.SimpleMongoDbLogger** via [NuGet](https://www.nu
 dotnet add package Maniceraf.SimpleMongoDbLogger --version 1.0.0-preview-1
 ```
 
-## Usage
+## **Usage**
 ```csharp
 using Maniceraf.SimpleMongoDbLogger;
 
@@ -40,6 +40,6 @@ class Program
 }
 ```
 
-## License
+## **License**
 
 This library is licensed under the [MIT](https://github.com/Maniceraf/Maniceraf.SimpleMongoDbLogger/blob/master/LICENSE.txt) License.

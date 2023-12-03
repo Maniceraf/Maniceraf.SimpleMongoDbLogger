@@ -6,7 +6,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageId>Maniceraf.SimpleMongoDbLogger</PackageId>
 		<Description>A logger library for logging to MongoDB in .NET.</Description>
-		<Version>1.0.0-preview-1</Version>
+		<Version>1.0.0</Version>
 		<Authors>Maniceraf</Authors>
 		<Company>Maniceraf</Company>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
