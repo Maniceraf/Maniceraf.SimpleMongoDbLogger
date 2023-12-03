@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-To begin using **Maniceraf.SimpleMongoDbLogger** start by installing the latest version of the package from [Nuget][https://www.nuget.org/packages/Maniceraf.SimpleMongoDbLogger].
+To begin using **Maniceraf.SimpleMongoDbLogger** start by installing the latest version of the package from [Nuget](https://www.nuget.org/packages/Maniceraf.SimpleMongoDbLogger).
 
 ## Installation
 
