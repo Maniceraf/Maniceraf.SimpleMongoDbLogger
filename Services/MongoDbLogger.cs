@@ -1,5 +1,6 @@
 ﻿using Maniceraf.SimpleMongoDbLogger.Enums;
 using Maniceraf.SimpleMongoDbLogger.Models;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
 namespace Maniceraf.SimpleMongoDbLogger.Services
@@ -22,13 +23,14 @@ namespace Maniceraf.SimpleMongoDbLogger.Services
             _logCollection = database.GetCollection<Log>(collectionName);
         }
 
-        public MongoDbLogger(IMongoDatabase database)
+        public MongoDbLogger(IOptions<MongoDbLoggerSettings> settings)
         {
-            _logCollection = database.GetCollection<Log>("Log");
-        }
+            var connectionString = settings.Value.ConnectionString;
+            var databaseName = settings.Value.DatabaseName;
+            var collectionName = settings.Value.CollectionName;
 
-        public MongoDbLogger(IMongoDatabase database, string collectionName)
-        {
+            var client = new MongoClient(connectionString);
+            var database = client.GetDatabase(databaseName);
             _logCollection = database.GetCollection<Log>(collectionName);
         }
 
