@@ -92,8 +92,8 @@ public class SomeClass
     public void SomeMethod()
     {
         // Log some messages
-        logger.WriteLog(LogLevel.Info, "This is an informational message");
-        await logger.WriteLogAsync(LogLevel.Info, "This is an informational message");
+        _logger.WriteLog(LogLevel.Info, "This is an informational message");
+        await _logger.WriteLogAsync(LogLevel.Info, "This is an informational message");
 
         // Logging other messages...
     }
